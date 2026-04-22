@@ -1,0 +1,11 @@
+@"
+.env
+__pycache__/
+*.pyc
+.venv/
+chroma_db/
+frontend/.next/
+frontend/node_modules/
+*.cache
+.DS_Store
+"@ | Out-File -FilePath .gitignore -Encoding utf8
